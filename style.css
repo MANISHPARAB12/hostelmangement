@@ -1,0 +1,332 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s;
+}
+
+/* Header Styling */
+header {
+    background-color:orange;
+    padding: 40px 20px;
+    text-align: center;
+    color: red;
+    height: 100vh;
+    
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 17%;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:red
+}
+
+/* Section Styling */
+.information {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: lightblue;
+    min-height: 100vh;
+}
+
+.information h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 18%;
+}
+
+.about{
+    text-align: center;
+    padding:30px 20px;
+    background-color:blue;
+    min-height: 100vh;
+}
+
+.about h2{
+    font-size: 1.8rem;
+    color:white;
+    margin-top: 18%;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    header .container h1 {
+        font-size: 2rem;
+    }
+
+    .information h2 {
+        font-size: 1.5rem;
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+}
+
+footer h3{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    .container {
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+    .container h1{
+        margin-bottom: 75%;
+    }
+
+    .information{
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+    
+    .information h2{
+        margin-bottom: 30%;
+    }
+
+    .about {
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+     
+    .about h2{
+        margin-bottom: 30%;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+
+    .container h1 {
+        font-size: 2rem; /* Adjust the font size */
+        text-align: center;
+        margin-bottom:50%;
+    }
+
+    .information {
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+
+    .information h2 {
+        font-size: 2rem; /* Adjust the font size */
+        text-align: center;
+        margin-bottom:25%;
+    }
+
+    .about{
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+
+    .about h2{
+        font-size: 2rem; /* Adjust the font size */
+        text-align: center;
+        margin-bottom:25%;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .container {
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+    .container h1 {
+        margin-bottom: 50%; 
+    }
+
+    .information{
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+
+    .information h2{
+        margin-bottom: 25%; 
+    }
+
+    .about{
+        display: flex; /* Enables Flexbox */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        justify-content: center; /* Centers content vertically */
+        align-items: center; /* Centers content horizontally */
+        height: 100vh; /* Full height of the viewport */
+        padding: 20px;
+        border-radius: 10px; /* Optional rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
+        text-align: center; /* Center text inside */
+    }
+
+    .about h2{
+        margin-bottom: 25%; 
+    }
+}
+
