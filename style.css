@@ -42,7 +42,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #f0a500;
+    color: red;
 }
 
 /* Hamburger Menu */
