@@ -62,13 +62,14 @@ body {
 
 /* Header Styling */
 header {
-    background-color:orange;
+    background-image: url(header.jpg);
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
     padding: 40px 20px;
     text-align: center;
     color: red;
-    height: 100vh;
-    
-
+    height: 100vh; /* Full viewport height */
 }
 
 .container {
@@ -85,12 +86,15 @@ header {
 
 /* Section Styling */
 .information {
+    background-image: url(information.jpg);
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    padding: 40px 20px;
     text-align: center;
-    padding: 30px 20px;
-    background-color: lightblue;
-    min-height: 100vh;
+    color: red;
+    height: 100vh; /* Full viewport height */
 }
-
 .information h2 {
     font-size: 1.8rem;
     color: #333;
@@ -98,12 +102,15 @@ header {
 }
 
 .about{
+    background-image: url(about.jpg);
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    padding: 40px 20px;
     text-align: center;
-    padding:30px 20px;
-    background-color:blue;
-    min-height: 100vh;
+    color: red;
+    height: 100vh; /* Full viewport height */
 }
-
 .about h2{
     font-size: 1.8rem;
     color:white;
@@ -182,7 +189,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -197,7 +203,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -213,7 +218,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -232,7 +236,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -250,7 +253,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -268,7 +270,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -289,7 +290,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -304,7 +304,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
@@ -320,7 +319,6 @@ footer h3{
         align-items: center; /* Centers content horizontally */
         height: 100vh; /* Full height of the viewport */
         padding: 20px;
-        border-radius: 10px; /* Optional rounded corners */
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for a modern look */
         text-align: center; /* Center text inside */
     }
